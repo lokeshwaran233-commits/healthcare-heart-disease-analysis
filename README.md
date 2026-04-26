@@ -1,17 +1,17 @@
 ❤️ Heart Disease Prediction using Machine Learning.
 
-📌 Overview
+📌 Overview:
 This project builds an end-to-end machine learning pipeline to predict the likelihood of heart disease based on clinical patient data. The goal is to assist early risk detection using data-driven decision support.
 Multiple classification models were trained, evaluated, and optimized using cross-validation and hyperparameter tuning. The final system is designed to be deployment-ready and interpretable for healthcare use cases.
 
-📊 Problem Statement
+📊 Problem Statement:
 Heart disease is one of the leading causes of mortality worldwide. Early prediction using patient health parameters can significantly improve preventive care.
 This project aims to:
 Analyze clinical health indicators
 Identify key risk factors
 Build a predictive classification model for heart disease detection
 
-📁 Dataset
+📁 Dataset:
 Source: Cleveland Heart Disease Dataset
 Samples: ~300 patient records
 Features:
@@ -25,29 +25,30 @@ Exercise induced angina (exang)
 ST depression (oldpeak)
 Slope, ca, thal, etc.
 
-🧠 Workflow
-1. Exploratory Data Analysis (EDA)
+🧠 Workflow:
+
+1. Exploratory Data Analysis (EDA):
 Distribution analysis of clinical variables
 Relationship between features and target variable
 Visualization of key risk indicators (age, cholesterol, chest pain, etc.)
-2. Data Preprocessing
+2. Data Preprocessing:
 Feature selection based on medical relevance
 Encoding categorical variables
 Standardization for Logistic Regression
-3. Model Building
+3. Model Building:
 Implemented multiple classification algorithms:
 Logistic Regression
 Random Forest Classifier
 XGBoost Classifier
-4. Model Evaluation
+4. Model Evaluation:
 Stratified K-Fold Cross Validation
 Accuracy, Precision, Recall, F1-score
 ROC-AUC analysis
-5. Hyperparameter Tuning
+5. Hyperparameter Tuning:
 GridSearchCV applied to Random Forest
 Optimized model complexity for better generalization
 
-Model Performance
+Model Performance:
 | Model               | CV Accuracy | Notes                         |
 | ------------------- | ----------- | ----------------------------- |
 | Logistic Regression | ~0.80       | Stable baseline model         |
@@ -57,7 +58,7 @@ Model Performance
 Final selected model: Random Forest Classifier
 
 
-Best Model Configuration
+Best Model Configuration:
 RandomForestClassifier(
     n_estimators=200,
     max_depth=3,
@@ -66,13 +67,13 @@ RandomForestClassifier(
 )
 
 
-Key Insights
+Key Insights:
 Chest pain type is one of the strongest predictors of heart disease
 Maximum heart rate (thalach) shows strong inverse relationship with disease risk
 ST depression (oldpeak) is a significant severity indicator
 Simpler models performed better due to dataset size
 
-💾 Model Deployment
+💾 Model Deployment:
 
 The final trained model is saved using joblib for reuse in real-world applications:
 import joblib
