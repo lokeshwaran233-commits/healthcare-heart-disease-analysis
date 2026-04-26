@@ -85,7 +85,6 @@ final_model.predict(sample)
 final_model.predict_proba(sample)
 
 Output:
-
 Prediction: 0 (No disease)
 Probability: [0.65, 0.35]
 
