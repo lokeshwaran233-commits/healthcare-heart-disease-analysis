@@ -98,18 +98,17 @@ XGBoost
 Matplotlib / Seaborn
 Jupyter Notebook
 
-📌 Future Improvements
-Deploy using Streamlit for real-time predictions
+📌 Future Improvements:
+Streamlit can be deployed for real-time predictions
 Integrate SHAP for model explainability
-Expand dataset for better generalization
-Try deep learning models for comparison
+Dataset Expansion for better generalization
+Deep learning models for comparison
 
 Author
-
 Lokesh Waran
 MSc Biochemistry | Aspiring AI/ML Practitioner
 Focused on Healthcare Data Science & AI Applications
-If you like this project
 
+If you like this project
 Feel free to star ⭐ the repository and connect for collaboration opportunities.
 
