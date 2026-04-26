@@ -1,15 +1,12 @@
 ❤️ Heart Disease Prediction using Machine Learning.
+
 📌 Overview
-
 This project builds an end-to-end machine learning pipeline to predict the likelihood of heart disease based on clinical patient data. The goal is to assist early risk detection using data-driven decision support.
-
 Multiple classification models were trained, evaluated, and optimized using cross-validation and hyperparameter tuning. The final system is designed to be deployment-ready and interpretable for healthcare use cases.
+
 📊 Problem Statement
-
 Heart disease is one of the leading causes of mortality worldwide. Early prediction using patient health parameters can significantly improve preventive care.
-
 This project aims to:
-
 Analyze clinical health indicators
 Identify key risk factors
 Build a predictive classification model for heart disease detection
