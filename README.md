@@ -38,9 +38,7 @@ Feature selection based on medical relevance
 Encoding categorical variables
 Standardization for Logistic Regression
 3. Model Building
-
 Implemented multiple classification algorithms:
-
 Logistic Regression
 Random Forest Classifier
 XGBoost Classifier
@@ -51,13 +49,16 @@ ROC-AUC analysis
 5. Hyperparameter Tuning
 GridSearchCV applied to Random Forest
 Optimized model complexity for better generalization
+
 Model Performance
-Model	CV Accuracy	Notes
-Logistic Regression	~0.80	Stable baseline model
-Random Forest	~0.845	Best performing model
-XGBoost	~0.73	Higher recall, lower accuracy
+| Model               | CV Accuracy | Notes                         |
+| ------------------- | ----------- | ----------------------------- |
+| Logistic Regression | ~0.80       | Stable baseline model         |
+| Random Forest       | **~0.845**  | Best performing model         |
+| XGBoost             | ~0.73       | Higher recall, lower accuracy |
 
 Final selected model: Random Forest Classifier
+
 
 Best Model Configuration
 RandomForestClassifier(
